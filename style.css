@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+#container{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+
+}
+.list-items{
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font: 20px;
+}
+.home-content{
+    margin: 13% 0% 0% 8%;
+}
+#unmae{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+}
+#lname{
+    color: rgb(208, 34, 34);
+    font-family: "Dancing Script", cursive;
+}
+
+#personal-deails{
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+#dwnld{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.home-images{
+    width:45%;
+    height:80%;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    bottom:0px;
+    transition: left 2s, bottom 1s ;
+   
+   
+}
+
+/* selector:hover{
+ */
+
+ .links:hover{
+    color: orangered;
+    text-decoration: underline;
+
+ }
+.home-images:hover #girl{
+    left: 7% ;
+} 
+.home-images:hover #shape{
+    bottom:20px ;
+} 
+#about{
+    margin: 15% 8% 0% 8%;
+}
+.section-head{
+    text-align: center;
+}
+
+.main-head{
+    font-size: 40px;
+    font-family: "Sevillana", system-ui;
+}
+.sub-head{
+    font-size: 20px;
+    color: green;
+    font-family: "Sevillana", system-ui;
+}
+.about-body{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+#about-image>img{
+    width: 400px;
+}
+#about-content{
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px;
+    line-height: 1.5;
+}
+.information{
+    margin-top: 10px;
+}
+.info-box{
+    display:flex;
+    align-items: center;
+}
+.info-box>span{
+    margin-left: 20px;
+}
+#skills{
+    margin: 8% 8% 0% 8%;
+}
+
+.skill-content{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+#myskill{
+    width: 100%;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    position: relative;
+}
+
+.bar-head,.bar-percent{
+    font-size: 20px;
+    font-weight: bold;
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0;
+}
+.html-bar{
+    width:90% ;
+    background-color: rgb(201, 141, 11);
+}
+.css-bar{
+    width:87% ;
+    background-color: rgb(201, 141, 11);
+
+}
+.bts-bar{
+    width:85% ;
+    background-color: rgb(201, 141, 11);
+}
+
+.js-bar{
+    width:80% ;
+    background-color: rgb(201, 141, 11);
+}
+
+
+#contact{
+    margin: 8%;
+}
+.icon-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    background-color: rgb(191, 131, 19);
+}
+
+
+.icon:hover{
+    background-image: linear-gradient(to bottom right,white,yellow,orange,red,blue);
+    animation:rotate 2s ;
+}
+.brand{
+    color: black;
+    font-size: 25px;
+}
+.brand:hover{
+    color: white;
+}
+
+#copyright
+{
+    font-weight: bold;
+    text-align: center;
+}
+.up-arrow{
+    float: right;
+    margin: -40px 30px 30px 0px ;
+}
+
+
+@keyframes rotate{
+    0%{
+        transform:rotate(30deg)
+    }
+    25%{
+        transform:rotate(-30deg)
+  
+    }
+    40%{
+        transform:rotate(30deg)
+  
+    }
+    60%{
+        transform:rotate(-30deg)
+  
+    }
+    80%{
+        transform:rotate(30deg)
+  
+    }
+    100%{
+        transform:rotate(-30deg)
+  
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
